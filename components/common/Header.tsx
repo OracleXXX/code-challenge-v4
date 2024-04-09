@@ -35,7 +35,7 @@ export function Header() {
         </Button>
       </Box>
 
-      <Box textAlign="center">
+  {/*    <Box textAlign="center">
         <Text
           as="h1"
           fontWeight="$extrabold"
@@ -74,7 +74,7 @@ export function Header() {
             </Link>
           </Text>
         </Text>
-      </Box>
+      </Box>*/}
     </>
   );
 }

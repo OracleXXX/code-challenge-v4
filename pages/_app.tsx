@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import "../styles/public.css";
 import "@interchain-ui/react/styles";
 
 import type { AppProps } from "next/app";
@@ -11,6 +12,7 @@ import {
   useColorModeValue,
   useTheme,
 } from "@interchain-ui/react";
+import {useChainData} from "@/hooks/useChainData";
 
 function CreateCosmosApp({ Component, pageProps }: AppProps) {
   const { themeClass } = useTheme();
